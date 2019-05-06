@@ -1,0 +1,20 @@
+[  
+   {  
+      "productId":1,
+      "availableQuantity":2,
+      "minQuantity":1,
+      "maxQuantity":2,
+      "totalQuantity":3,
+      "returnQuantity":1,
+      "manufacturer":"Samsung"
+   },
+   {  
+      "productId":2,
+      "availableQuantity":4,
+      "minQuantity":1,
+      "maxQuantity":2,
+      "totalQuantity":7,
+      "returnQuantity":3,
+      "manufacturer":"LG"
+   }
+]

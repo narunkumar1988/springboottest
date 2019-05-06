@@ -1,0 +1,9 @@
+{
+	"productId": 1,
+	"availableQuantity": 3,
+	"minQuantity": 1,
+	"maxQuantity": 2,
+	"totalQuantity": 4,
+	"returnQuantity": 1,
+	"manufacturer": "Samsung"
+}

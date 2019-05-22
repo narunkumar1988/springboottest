@@ -3,6 +3,7 @@ package com.entity;
 import javax.persistence.Entity;
 import javax.persistence.Id;
 import javax.persistence.Table;
+import javax.validation.constraints.Min;
 
 import lombok.Builder;
 import lombok.Getter;
@@ -21,7 +22,8 @@ public class Inventory {
 	
 	@Id
 	Long productId;
-
+	
+	@Min(value=0,message="availableQuantity should be non negative")
 	Long availableQuantity;
 	
 	Long minQuantity;

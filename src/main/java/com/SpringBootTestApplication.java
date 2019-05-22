@@ -8,10 +8,10 @@ import org.springframework.cloud.client.discovery.EnableDiscoveryClient;
 @SpringBootApplication
 @EnableDiscoveryClient
 @EnableCircuitBreaker
-public class MicroInventoryApplication {
+public class SpringBootTestApplication {
 
 	public static void main(String[] args) {
-		SpringApplication.run(MicroInventoryApplication.class, args);
+		SpringApplication.run(SpringBootTestApplication.class, args);
 	}
 
 }

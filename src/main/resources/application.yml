@@ -1,6 +1,8 @@
 server:
-  port: 9096
+  port: 9097
 spring:
+  application:
+    name: springboottest
   h2:
     console:
       enabled: true
@@ -14,6 +16,6 @@ spring:
 eureka:
   client:
     serviceUrl:
-      defaultZone: ${EUREKA_URI:http://localhost:8761/eureka}
+      defaultZone: ${EUREKA_URI:http://10.199.0.171:8761/eureka}
   instance:
     preferIpAddress: true
